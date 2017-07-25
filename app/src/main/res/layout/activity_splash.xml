@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2b2b2b"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.my.mtaj_11.myrecipe.SplashActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageview"
+        android:src="@drawable/cooker_2"/>
+
+    <com.my.mtaj_11.myrecipe.CustomViews.MyCustomTextView1
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txttitle"
+        android:text="Chef's Talk"
+        android:textSize="45sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffcc00"
+        android:gravity="center"/>
+
+    <com.my.mtaj_11.myrecipe.CustomViews.MyCustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtsubtitle"
+        android:text="Cooking Guide"
+        android:textSize="22sp"
+        android:textColor="#ffcc00"/>
+
+
+</LinearLayout>
